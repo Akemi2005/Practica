@@ -39,6 +39,7 @@ i {
     font-size: 24px; 
 }
 
+
 .fixed-menu {
     position: fixed;
     top: 0;
@@ -602,6 +603,7 @@ i {
 }
 
 .slide {
+    min-height: 220px;
     font-family: 'BIZ UDGothic', sans-serif;
     font-style: italic;
     letter-spacing: 0.05em;
@@ -628,8 +630,8 @@ i {
 }
 
 .slide-nav p {
-    width: 4px;
-    height: 4px;
+    width: 10px;
+    height: 10px;
     background: #D2D2D7;
     border-radius: 50%;
 }
@@ -826,6 +828,9 @@ footer {
     }
     .row {
         font-size: 14px;
+    }
+    .slide {
+        min-height: 0;
     }
 }
 
