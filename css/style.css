@@ -626,7 +626,7 @@ i {
     display: flex;
     flex-direction: row;
     gap: 8px;
-    height: 4px;
+    height: 10px;
 }
 
 .slide-nav p {
